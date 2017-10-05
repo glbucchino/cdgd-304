@@ -1,0 +1,77 @@
+body {
+    font-family: helvetica ;
+    font-size: 14px ;
+    line-height: 20px ;
+    background-image: url(pineapple.jpg) ;
+    background-color: white ;
+}
+
+h1 {
+    font-size: 72px ;
+    padding-top: 50px ;
+    font-family: northern lights ;
+    color: deeppink ;
+}
+
+h2 {
+    color: orangered ;
+}
+
+h3 {
+    color: deepskyblue ;
+}
+
+h4 {
+    color: deeppink ;
+}
+p {
+    font-weight: lighter ;
+    background-color: white ;
+}
+
+a:link {
+    text-decoration: none ;
+    color: lightcoral ;
+}
+
+a:hover {
+    color: coral ;
+}
+
+a:visited {
+    color: darkred ;
+}
+
+table {
+    width: 80% ;
+}
+
+th {
+    height: 50px ;
+    text-align: left ;
+    font-size: 20px ;
+    background-color: coral ;
+}
+
+th, td {
+    padding: 16px ;
+}
+
+tr:nth-child(even) {
+    background-color: navajowhite ;
+}
+
+fieldset {
+    width: 350px ;
+    border: 1px solid ;
+    border-color: lightgrey ;
+    padding: 20px ;
+}
+
+ul {
+    background-color: white ;
+}
+
+ol {
+    background-color: white ;
+}
