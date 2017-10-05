@@ -1,0 +1,57 @@
+body {
+    font-family: brown ;
+    font-size: 14px ;
+    line-height: 20px ;
+    background-color: floralwhite ;
+}
+
+h1 {
+    font-size: 46px ;
+}
+
+p {
+    font-weight: lighter ;
+}
+
+a:link {
+    text-decoration: none ;
+    color: lightcoral ;
+}
+
+a:hover {
+    color: coral ;
+}
+
+a:visited {
+    color: darkred ;
+}
+
+table {
+    width: 80% ;
+}
+
+th {
+    height: 50px ;
+    text-align: left ;
+    font-size: 20px ;
+    background-color: coral ;
+}
+
+th, td {
+    padding: 16px ;
+}
+
+tr:nth-child(even) {
+    background-color: navajowhite ;
+}
+
+fieldset {
+    width: 350px ;
+    border: 1px solid ;
+    border-color: lightgrey ;
+    padding: 20px ;
+}
+
+ul {
+    list-style: inside circle ;
+}
