@@ -21,11 +21,10 @@ body {
 	color: #555753; 
 	margin: 0; 
 	padding: 0;
-    background: url(background.png)
 	}
 p { 
 	margin-top: 0; 
-	text-align: justify;
+/*	text-align: justify;*/
 	}
 h3 { 
     font-family: 'Nunito', sans-serif;
