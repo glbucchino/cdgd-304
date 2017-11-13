@@ -68,48 +68,25 @@ abbr {
     grid-area: 1 / 1 / 2 / 8;
 }
 
-.preamble {
+#preamble {
     grid-area: 2 / 1 / 3 / 8;
 }
 
-.main-supporting {
-    grid-column: 1 / 8;
-}
-
-.explanation {
+#sowhat {
     grid-area: 3 / 1 / 4 / 8;
 }
 
-.three {
+#participation {
     grid-area: 4 / 1 / 5 / 8;
 }
 
-.four {
+#benefits {
     grid-area: 5 / 1 / 6 / 8;
-}
-
-.benefits {
-    grid-area: 5 / 1 / 6 / 8;
-}
-
-.polaroid4 {
-    grid-area: 5 / 1 / 6 / 8;
-}
-
-.footer {
-    grid-area: 7 / 1 / 8 / 8;
-}
-
-.designselection {
-    grid-area: 6 / 1 / 7 / 8;
 }
 
 .sidebar {
     grid-area: 6 / 1 / 7 / 8;
 }
-
-
-
 
 /* section 1 */
 #camera {
@@ -203,13 +180,9 @@ h3.four {
 #polaroid4 {
     clear: left;
     float: left;
+    position: static;
 }
 
-#four {
-    margin: 200px 100px;
-    width: 600px;
-}
-
-#tall {
-    height: 64.8px;
+#help {
+    margin: 20px;
 }
