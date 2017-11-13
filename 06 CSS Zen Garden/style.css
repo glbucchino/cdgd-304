@@ -13,6 +13,7 @@ html {
 	margin: 0;
 	padding: 0;
     height: 6873px;
+    width: 1024px;
 	}
 body { 
     font-family: 'Inconsolata', monospace;
@@ -202,3 +203,9 @@ a[href*="examples"]:hover {
     background: #2CB8F4;
     border: 1px solid #2CB8F4;
     }
+
+
+/* imagery */
+#camera {
+    margin: 120px 90% 100px 10%;
+}
