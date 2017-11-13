@@ -63,7 +63,7 @@ abbr {
     padding-left: -10px;
     padding-right: -10px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 800px 800px 800px 800px 1788px 987px 627px;
+    grid-template-rows: 800px 800px 800px 800px 1300px 987px 627px;
 }
 
 .intro {
@@ -185,6 +185,14 @@ h3.four {
     position: static;
 }
 
-#help {
-    margin: 20px;
+.last {
+    margin: 120px 100px;
+    width: 600px;
+    float: right;
+}
+
+#polaroid4 {
+    margin-top: 90px;
+    float: left;
+    position: static;
 }
