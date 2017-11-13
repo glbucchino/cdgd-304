@@ -60,6 +60,8 @@ abbr {
     display: grid;
     width: auto;
     height: auto;
+    padding-left: -10px;
+    padding-right: -10px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 800px 800px 800px 800px 1788px 987px 627px;
 }
@@ -130,12 +132,12 @@ a.first:hover {
 /* section 2 */
 #polaroid1 {
     float: right;
-    margin-top: 90px;
-    position: static;
+    padding-top: -500px;
 }
 
 #two {
-    margin: 180px 60px;
+    margin: 100px 50px;
+    padding-top: 100px;
     width: 700px;
 }
 
@@ -166,12 +168,12 @@ h3.four {
 #polaroid3 {
     clear: right;
     float: right;
-    margin-top: 150px;
+    margin-top: 90px;
     position: static;
 }
 
 .three {
-    margin: 200px 100px;
+    margin: 120px 100px;
     float: left;
     width: 600px;
 }
