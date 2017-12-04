@@ -1,0 +1,72 @@
+<html>
+<head><title>An Imperfect Elegy</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+        <h1><a href="index.html" id="home">An Imperfect Elegy</a></h1>
+        <h2>Maxwell LaBelle</h2>
+    </header>
+
+    <aside>
+    <nav>
+        <ul>
+        <div id="toggle">
+            <li><a id="activepage" href="index.html">the book</a></li>
+        </div>
+        <div id="chapters">
+        <li><a href="one.html" class="sequence">one</a></li>
+        <li><a href="two.html" class="sequence">two</a></li>
+        <li><a href="three.html" class="sequence">three</a></li>
+        <li><a href="four.html" class="sequence">four</a></li>
+        </div>
+        <li><a href="statement.html">artist statement</a></li>
+        <li><a href="purchase.html">purchase</a></li>
+        <li><a href="about.html">about / contact</a></li>
+        </ul>
+    </nav>
+    </aside>
+    
+    <section class="cycle-slideshow"
+             data-cycle-fx="scrollHorz"
+             data-cycle-timeout="0"
+             data-cycle-prev="#prev"
+             data-cycle-next="#next"
+             data-cycle-center-horz="true"
+             data-cycle-center-vert="true">
+    <img src="images/book_photos/Car%20Windshield%20copy%203.png" width="900" height="685">
+    <img src="images/full_pages/01.png" width="900" height="700">
+    <img src="images/full_pages/02.png" width="900" height="700">
+    <img src="images/full_pages/03.png" width="900" height="700">
+    <img src="images/full_pages/04.png" width="900" height="700">
+    <img src="images/full_pages/05.png" width="900" height="700">
+    <img src="images/full_pages/06.png" width="900" height="700">
+    <img src="images/full_pages/07.png" width="900" height="700">
+    <img src="images/full_pages/08.png" width="900" height="700">
+    </section>
+    
+    <div class="slideshow-buttons">
+    <a href=# id="prev">&lsaquo; previous /</a>
+    <a href=# id="next"> next &rsaquo;</a><br>
+    view <a href="">all</a>
+    </div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.cycle2.min.js"></script>
+<script src="jquery.cycle2.center.min.js"></script>
+<script type="text/javascript">
+    
+$(document).ready(function(){
+    $("#toggle").click(function(){
+        $("#chapters").slideToggle("slow") ;
+    });
+});
+
+$(document).ready(function(){
+    jQuery('#chapters').hide().delay (1000).slideDown (1000) ;
+})
+</script>
+</body>
+</html>
