@@ -17,6 +17,7 @@ header {
     margin: 30px;
     grid-area: sidebar;
     grid-row: 1 / 3;
+    grid-column: 1 / 3;
 }
 
 h1 {
@@ -81,6 +82,7 @@ a:active {
 section {
     grid-area: main;
     margin: 30px auto;
+    margin-left: 20px;
 }
 
 .writing {
