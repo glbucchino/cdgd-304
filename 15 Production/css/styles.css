@@ -1,3 +1,5 @@
+/* ------- BASIC CSS ELEMENTS ------- */
+
 body {
     font-family: "Lora", serif;
     font-size: 16px;
@@ -49,7 +51,6 @@ ul {
     color: #3b99dc;
 }
 
-
 .sequence {
     line-height: 30px;
 }
@@ -80,22 +81,19 @@ a:active {
     font-weight: 700;
 }
 
+#activepage {
+    font-weight: 800;
+    color: #3b99dc;
+}
+
+
+
+/* ------- SLIDESHOW ------- */
 
 section {
     grid-area: main;
     margin: 30px auto;
     margin-left: 20px;
-}
-
-.writing {
-    font-size: 15px;
-    line-height: 24px;
-    grid-row-start: 3;
-    margin: 0px 60px;
-}
-
-.writing p:first-child {
-    margin-top: 20px;
 }
 
 .slideshow-buttons {
@@ -106,7 +104,31 @@ section {
     line-height: 30px;
 }
 
-.carousel {
+button {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    border: none;
+}
+
+.slick-prev, .slick-next {
+    padding: 0;
+}
+
+button.slick-prev:hover {
+    text-decoration: none;
+    color: #3b99dc;
+}
+
+button.slick-next:hover {
+    text-decoration: none;
+    color: #3b99dc;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.cycle-slideshow {
     width: 1000px;
     height: 650px;
     grid-area: main;
@@ -114,27 +136,15 @@ section {
     margin: 50px auto;
 }
 
-.carousel-cell {
+.cycle-cell {
     height: 100%;
-/*    counter-increment: cycle-cell;*/
 }
 
-.carousel-cell::before {
-/*    content: counter(cycle-cell);*/
-}
 
-.button-group {
-  display: inline-block;
-}
 
-.button-group:after {
-  content: '';
-}
 
-#activepage {
-    font-weight: 800;
-    color: #3b99dc;
-}
+
+/* ------- PURCHASE PAGE ------- */
 
 #blurb {
     grid-area: main;
@@ -179,16 +189,14 @@ h4 {
     border-radius: 10px;
 }
 
-
-.button:visited {
+.button-purchase:hover, .button-purchase:active {
     color: #FFFFFF;
-    background-color: #3b99dc;
-    border: 2px solid #3b99dc;
-}
-
-.button:hover, #button:active {
     background-color: #17527D;
     border: 2px solid #17527D;
+}
+
+.button-purchase:visited {
+    color: #FFFFFF;
 }
 
 #book-description {

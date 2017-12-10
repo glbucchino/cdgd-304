@@ -67,7 +67,7 @@ body.fancybox-iosfix {
 .fancybox-show-toolbar .fancybox-toolbar,
 .fancybox-show-caption .fancybox-caption-wrap {
   opacity: 1;
-  visibility: visible;
+  visibility: hidden;
   transition: opacity .25s, visibility 0s; }
 
 .fancybox-infobar {
@@ -350,13 +350,16 @@ body.fancybox-iosfix {
   right: 10px;
   width: 40px;
   height: 40px;
+  border-radius: 20px;
   background: rgba(30, 30, 30, 0.6); }
 
 .fancybox-navigation .fancybox-button--arrow_left {
-  left: 0; }
+  left: 0;
+}
 
 .fancybox-navigation .fancybox-button--arrow_right {
-  right: 0; }
+  right: 0;
+}
 
 /* Close button on the top right corner of html content */
 .fancybox-close-small {
