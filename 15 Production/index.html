@@ -2,6 +2,8 @@
 <head><title>An Imperfect Elegy</title>
     <link type="text/css" rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/flickity.min.css"> 
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
     </head>
 
 <body>
@@ -17,10 +19,10 @@
             <li><a id="activepage" href="index.html">the book</a></li>
         </div>
         <div id="chapters">
-        <li><a href="one.html" class="sequence">one</a></li>
-        <li><a href="two.html" class="sequence">two</a></li>
-        <li><a href="three.html" class="sequence">three</a></li>
-        <li><a href="four.html" class="sequence">four</a></li>
+            <li><button class="button is-selected">one</button></li>
+            <li><button class="button">two</button></li>
+            <li><button class="button">three</button></li>
+            <li><button class="button">four</button></li>
         </div>
         <li><a href="statement.html">artist statement</a></li>
         <li><a href="purchase.html">purchase</a></li>
@@ -29,58 +31,137 @@
     </nav>
     </aside>
     
-    <section class="cycle-slideshow"
-             data-cycle-fx="scrollHorz"
-             data-cycle-timeout="0"
-             data-cycle-prev="#prev"
-             data-cycle-next="#next"
-             data-cycle-center-horz="true"
-             data-cycle-center-vert="true">
-    <img src="images/Car%20Windshield.jpg" width="900" height="685">
-    <img src="images/full_pages/01.png" width="900" height="700">
-    <img src="images/full_pages/02.png" width="900" height="700">
-    <img src="images/full_pages/03.png" width="900" height="700">
-    <img src="images/full_pages/04.png" width="900" height="700">
-    <img src="images/full_pages/05.png" width="900" height="700">
-    <img src="images/full_pages/06.png" width="900" height="700">
-    <img src="images/full_pages/07.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
-    <img src="images/full_pages/08.png" width="900" height="700">
+    <section class="carousel">
+        <a data-fancybox="gallery" href="images/Images_Large/008.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_11-02.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/008.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_11-03.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/001.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_08.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/002.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_10.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/003.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_11.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/003.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_12.png" width="500" height="600"></a>
+    
+        <a data-fancybox="gallery" href="images/Images_Large/004.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_13.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/005.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_16.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/006.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_17.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/006.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_18.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/007.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_19.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/008.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_20.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/009.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_22.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/010.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_24.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/011.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_25.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/011.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_26.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/012.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_27.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/012.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_28.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/013.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_29.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/014.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_30.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/015.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_31.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/015.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_32.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/016.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_33.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/017.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_36.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/018.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_38.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/019.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_40.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/020.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_41.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/020.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_42.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/021.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_44.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/022.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_46.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/023.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_47.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/024.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_48.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/025.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_49.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/025.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_50.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/026.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_51.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/027.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_52.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/028.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_53.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/029.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_56.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/030.jpg"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_58.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/031.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_59.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/031.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_60.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/032.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_61.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/032.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_62.png" width="500" height="600"></a>
+        
+    <img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_07.png" width="500" height="600">
+        
+        <a data-fancybox="gallery" href="images/Images_Large/033.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_64.png" width="500" height="600"></a>
+        
+        <a data-fancybox="gallery" href="images/Images_Large/034.png"><img class="carousel-cell" src="images/book_pages/MaxBookFirstDraft%20rnd2_Page_65.png" width="500" height="600"></a>
     </section>
     
     <div class="slideshow-buttons">
-    <a href=# id="prev">&lsaquo; previous /</a>
-    <a href=# id="next"> next &rsaquo;</a><br>
     view <a href="thumbnails.html">all</a>
     </div>
-    
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/jquery.cycle2.min.js"></script>
-<script src="js/jquery.cycle2.center.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
 <script type="text/javascript">
     
 $(document).ready(function(){
@@ -92,6 +173,17 @@ $(document).ready(function(){
 $(document).ready(function(){
     jQuery('#chapters').hide().delay (1000).slideDown (1000) ;
 })
+    
+$(document).ready(function(){
+    $carousel = $('.carousel').flickity({
+        cellAlign: 'left',
+        contain: true,
+        groupCells: 2,
+        setGallerySize: false,
+        accessibility: true,
+    });
+});
+
 </script>
 </body>
 </html>

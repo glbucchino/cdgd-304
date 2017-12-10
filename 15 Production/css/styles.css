@@ -106,10 +106,29 @@ section {
     line-height: 30px;
 }
 
-.cycle-slideshow {
-    width: 900px;
-    height: 700px;
-    margin: 15px auto;
+.carousel {
+    width: 1000px;
+    height: 650px;
+    grid-area: main;
+    grid-row-start: 1;
+    margin: 50px auto;
+}
+
+.carousel-cell {
+    height: 100%;
+/*    counter-increment: cycle-cell;*/
+}
+
+.carousel-cell::before {
+/*    content: counter(cycle-cell);*/
+}
+
+.button-group {
+  display: inline-block;
+}
+
+.button-group:after {
+  content: '';
 }
 
 #activepage {
@@ -147,7 +166,7 @@ h4 {
     font-weight: 100;
 }
 
-.button {
+.button-purchase {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     font-weight: 600;
